@@ -1,5 +1,18 @@
-# Vue 3 + Vite
+# To-Do List Web Application
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This is a simple To-Do List web application built using **Vue 3**, **Vue Router**, and **Vuex**. The application allows users to manage their tasks, with data being stored locally in the browser's `localStorage`. No database is used for this project.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## Features
+
+- **Add Tasks**: Create new tasks with a title and description.
+- **Edit Tasks**: Modify the title or description of existing tasks.
+- **Delete Tasks**: Remove tasks from the list.
+- **Task Status**: Organize tasks into "Pending", "Finished", and "Trashed" categories.
+- **Local Storage**: Tasks are saved locally in the browser using `localStorage`, so your tasks persist even after refreshing the page.
+
+## Tech Stack
+
+- **Vue 3**: JavaScript framework for building the UI and managing state.
+- **Vue Router**: Handling routing for navigating between different pages or views in the application.
+- **Vuex**: State management for global state like tasks, which are shared across components.
+- **localStorage**: Persist data in the user's browser without needing a backend.
