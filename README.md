@@ -6,7 +6,6 @@ This is a simple To-Do List web application built using **Vue 3**, **Vue Router*
 
 - **Add Tasks**: Create new tasks with a title and description.
 - **Edit Tasks**: Modify the title or description of existing tasks.
-- **Delete Tasks**: Remove tasks from the list.
 - **Task Status**: Organize tasks into "Pending", "Finished", and "Trashed" categories.
 - **Local Storage**: Tasks are saved locally in the browser using `localStorage`, so your tasks persist even after refreshing the page.
 
