@@ -14,7 +14,7 @@ const openModal = () => {
 
 const closeModal = () => {
   isModalVisible.value = false;
-  newTodo.value = { title: "", description: "" };
+  newTodo.value = { title: "", description: "", status: "pending" };
 };
 
 const createTodo = () => {
